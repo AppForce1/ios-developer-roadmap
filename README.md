@@ -61,10 +61,10 @@
 	  Start-->Xcode;
 	  Xcode-->Fundamentals
 	  Fundamentals-->Languages
-    Fundamentals-->CoreConcepts
-    Fundamentals-->UI
-    Fundamentals-->Background
-    Fundamentals-->Acce
+    Languages-->CoreConcepts
+    CoreConcepts-->UI
+    UI-->Background
+    Fundamentals-->Accessibility
     UI-->CoreAnimation
     UI-->UIKit
     UI-->SwiftUI
@@ -88,7 +88,7 @@
     CoreConcepts-->Network
     CoreConcepts-->ExceptionHandling
     CoreConcepts-->AppArchitecture
-    CoreConcepts-->AppPackaging
+    AppStore-->AppPackaging
     AppPackaging-->InfoPlist
     AppPackaging-->IPA
     AppPackaging-->Manifests
@@ -111,16 +111,10 @@
     SystemServices-->SiriKit
     SystemServices-->CloudKit
     SystemServices-->WebKit
-    SystemServices-->SiwA
     SystemServices-->MapKit
-    SystemServices-->MailKit
     SystemServices-->EventKit
-    SystemServices-->Contacts
     SystemServices-->PhotoKit
     SystemServices-->Authentication
-    SystemServices-->Assets
-    
-
 
     Network-->CFNetwork
     Network-->URLSession
